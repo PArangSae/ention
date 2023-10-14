@@ -1,0 +1,20 @@
+{
+    "name": "ention",
+    "description": "엔트리 내 멘션 기능",
+    "version": "1.0.0",
+    "manifest_version": 3,
+
+
+    "content_scripts": [
+      {
+        "matches": [
+          "https://playentry.org/*"
+        ],
+        "js": ["content.js"]
+      }
+    ],
+  
+    "permissions": []
+
+
+  }
